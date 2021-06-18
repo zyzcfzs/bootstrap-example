@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bootstrap Project</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <!-- !navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Bootstrap Project</a>
+        <button
+          type="button"
+          class="navbar-toggle d-md-none d-block bi bi-chevron-expand"
+          data-bs-target="#navbar-toggle"
+          data-bs-toggle="collapse"
+        ></button>
+        <div id="navbar-toggle" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">what you will learn</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#question" class="nav-link">Questions</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#instructor" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- !front screen -->
+    <section class="bg-dark text-light p-5 mt-5 text-center text-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <div class="h1 text-capitalize">
+              become a
+              <span class="text-success">web developer</span>
+            </div>
+            <p class="text-lg-center lead text-capitalize my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              voluptate quae minus debitis odit eaque tempora quidem cumque
+              recusandae repellat.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Get Enrolled Right Now
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-sm-inline-block d-none"
+            src="img/showcase.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- !signup bar -->
+    <section class="bg-primary text-light p-5 text-center">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="text-capitalize">sign up for news letter</h3>
+          <div class="input-group mb-3 half-form">
+            <input type="text" class="form-control" placeholder="Enter email" />
+            <button class="btn btn-lg btn-dark ms-auto">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md text-center mb-3">
+            <div class="card bg-danger text-light">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">Virtual Environment</h3>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci recusandae aliquam asperiores distinctio et illo
+                repellendus praesentium aspernatur dolorum inventore!
+              </p>
+              <a href="" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+          <div class="col-md text-center mb-3">
+            <div class="card bg-info text-light">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+              <h3 class="card-title mb-3">Hybird</h3>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci recusandae aliquam asperiores distinctio et illo
+                repellendus praesentium aspernatur dolorum inventore!
+              </p>
+              <a href="" class="btn btn-light">Read More</a>
+            </div>
+          </div>
+          <div class="col-md text-center mb-3">
+            <div class="card bg-light text-info">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">Groups</h3>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci recusandae aliquam asperiores distinctio et illo
+                repellendus praesentium aspernatur dolorum inventore!
+              </p>
+              <a href="" class="btn btn-secondary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !learn sections -->
+    <section class="p-5" id="learn">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img class="img-fluid" src="img/fundamentals.svg" alt="" />
+          </div>
+          <div class="col-sm p-5">
+            <div class="h2">Learn the Fundamentals</div>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+              nisi quae a optio assumenda, impedit culpa facilis repellat. Quas
+              omnis ducimus suscipit animi sint nostrum dignissimos, laboriosam
+              error iste accusamus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              temporibus suscipit, necessitatibus animi fugit ullam perferendis
+              quasi unde libero vero possimus provident perspiciatis ut eligendi
+              in reprehenderit, iure at! Maxime.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>
+              Read more
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-5 bg-dark" id="learn-second">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm p-5 text-capitalize text-light">
+            <div class="h2">Learn React</div>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+              nisi quae a optio assumenda, impedit culpa facilis repellat. Quas
+              omnis ducimus suscipit animi sint nostrum dignissimos, laboriosam
+              error iste accusamus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              temporibus suscipit, necessitatibus animi fugit ullam perferendis
+              quasi unde libero vero possimus provident perspiciatis ut eligendi
+              in reprehenderit, iure at! Maxime.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>
+              Read more
+            </a>
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid" src="img/react.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !  question according -->
+    <section class="p-5" id="question">
+      <div class="container">
+        <h2 class="text-center mb-4 text-capitalize">
+          frequently asked questions
+        </h2>
+        <div class="accordion accordion-flush" id="questions">
+          <div class="accordion-item">
+            <!-- item 1 -->
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Where exactly are you located
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body text-capitalize">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+                ipsa iure labore quam dicta sunt numquam aut ad officia odio?
+                Distinctio, quo recusandae. Modi, eos perspiciatis quod alias
+                culpa asperiores tenetur distinctio facere expedita. Cum dolores
+                consectetur, blanditiis id numquam et, magnam similique
+                accusamus quo harum ratione fugit aspernatur enim.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <!-- item 2 -->
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed text-capitalize"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body text-capitalize">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                minima error sapiente quo at vel voluptatum, exercitationem
+                architecto dolores accusantium repellendus aperiam dignissimos,
+                accusamus maiores debitis cupiditate obcaecati ab velit quaerat
+                optio impedit! Harum soluta repellendus culpa corrupti numquam
+                quisquam nam possimus neque, ipsa, sed officiis ut, placeat
+                corporis ducimus?
+              </div>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed text-capitalize"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                what do i need to know to get started?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body text-capitalize">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                aliquid sint at suscipit ratione, unde inventore dignissimos
+                tenetur modi dolor doloribus fuga reprehenderit veniam error in!
+                Recusandae id nisi aperiam ratione cumque minus, illo
+                laudantium, iusto doloremque eaque tempora dicta magni molestias
+                saepe at voluptatum quos est. Ducimus, distinctio quam?
+              </div>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading-4">
+              <button
+                class="accordion-button collapsed text-capitalize"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                what job may i get from learing this?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body text-capitalize">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                aliquid sint at suscipit ratione, unde inventore dignissimos
+                tenetur modi dolor doloribus fuga reprehenderit veniam error in!
+                Recusandae id nisi aperiam ratione cumque minus, illo
+                laudantium, iusto doloremque eaque tempora dicta magni molestias
+                saepe at voluptatum quos est. Ducimus, distinctio quam?
+              </div>
+            </div>
+          </div>
+          <!-- item  5-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading-5">
+              <button
+                class="accordion-button collapsed text-capitalize"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                how to actually sign up to this?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body text-capitalize">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                aliquid sint at suscipit ratione, unde inventore dignissimos
+                tenetur modi dolor doloribus fuga reprehenderit veniam error in!
+                Recusandae id nisi aperiam ratione cumque minus, illo
+                laudantium, iusto doloremque eaque tempora dicta magni molestias
+                saepe at voluptatum quos est. Ducimus, distinctio quam?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="instructor" class="p-5 bg-primary">
+      <div class="container">
+        <div class="h2 text-center text-light">our instructors</div>
+        <p class="lead text-center mb-5 text-light">
+          our instructors all have over 5 years of experiences working as web
+          developers in the industry
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  class="rounded-circle"
+                  src="https://randomuser.me/api/portraits/men/68.jpg"
+                  alt=""
+                />
+              </div>
+              <h2 class="card-title text-center">Matthew Walker</h2>
+              <p
+                class="
+                  card-text
+                  mb-3
+                  text-secondary text-center text-capitalize
+                "
+              >
+                East father save cause theory business particular another.
+                Leader customer discuss be drop drive agent.Central current drop
+                word office. Natural experience picture watch amount big agree.
+              </p>
+              <div class="icons mt-1 text-center">
+                <i class="bi bi-twitter m-2"></i>
+                <i class="bi bi-facebook m-2"></i>
+                <i class="bi bi-linkedin m-2"></i>
+                <i class="bi bi-instagram m-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  class="rounded-circle"
+                  src="https://randomuser.me/api/portraits/men/30.jpg"
+                  alt=""
+                />
+              </div>
+              <h2 class="card-title text-center">John Doe</h2>
+              <p
+                class="
+                  card-text
+                  mb-3
+                  text-secondary text-center text-capitalize
+                "
+              >
+                Eye own shoulder claim. Daughter there attention throw
+                stage.Soon bit from approach. Various no establish produce
+                performance old way. Star bag person across and.
+              </p>
+              <div class="icons mt-1 text-center">
+                <i class="bi bi-twitter m-2"></i>
+                <i class="bi bi-facebook m-2"></i>
+                <i class="bi bi-linkedin m-2"></i>
+                <i class="bi bi-instagram m-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  class="rounded-circle"
+                  src="https://randomuser.me/api/portraits/women/45.jpg"
+                  alt=""
+                />
+              </div>
+              <h2 class="card-title text-center">Brandon Rodriguez</h2>
+              <p
+                class="
+                  card-text
+                  mb-3
+                  text-secondary text-center text-capitalize
+                "
+              >
+                Second ahead focus product still. Work read six century gas
+                theory yard. Can develop man front actually.Medical world edge
+                team. Stay wear American cause.
+              </p>
+              <div class="icons mt-1 text-center">
+                <i class="bi bi-twitter m-2"></i>
+                <i class="bi bi-facebook m-2"></i>
+                <i class="bi bi-linkedin m-2"></i>
+                <i class="bi bi-instagram m-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  class="rounded-circle"
+                  src="https://randomuser.me/api/portraits/women/21.jpg"
+                  alt=""
+                />
+              </div>
+              <h2 class="card-title text-center">Edward Henry</h2>
+              <p
+                class="
+                  card-text
+                  mb-3
+                  text-secondary text-center text-capitalize
+                "
+              >
+                It without sell leave order price remember. Director different
+                page side.Century house year form wonder. Up former join. Fire
+                big ground move.
+              </p>
+              <div class="icons mt-1 text-center">
+                <i class="bi bi-twitter m-2"></i>
+                <i class="bi bi-facebook m-2"></i>
+                <i class="bi bi-linkedin m-2"></i>
+                <i class="bi bi-instagram m-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !contact and map -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <h2 class="text-center">contact info</h2>
+          <div class="col-md">
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item m-1">
+                <span class="fw-bold">Main locations:</span>
+                648 Guzman Skyway Freemanville, SC 14838
+              </li>
+            </ul>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item m-1">
+                <span class="fw-bold">Main contacts:</span>
+                +1 808-232-3222
+              </li>
+            </ul>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item m-1">
+                <span class="fw-bold">Main sideline:</span>
+                +1 823-223-2121
+              </li>
+            </ul>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item m-1">
+                <span class="fw-bold">Main email:</span>
+                garciaadam@yahoo.com
+              </li>
+            </ul>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item m-1">
+                <span class="fw-bold">Secondary email:</span>
+                charlesoconnell@white.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <iframe
+              class="w-100 h-100"
+              src="./map.html"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! footers -->
+    <footer class="p-5 bg-dark text-light text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 John Doe</p>
+        <a href="#top" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle-fill h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- !modle component -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="https://www.bing.com" method="POST" class="form-group">
+              <label class="text-capitalize" for="name"
+                >Please fill in your name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="name"
+                aria-describedby="helpId"
+                placeholder="John Doe"
+              />
+              <label class="text-capitalize" for="email"
+                >Please fill in your email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                aria-describedby="helpId"
+                placeholder="Johndoe@gmail.com"
+              />
+              <label class="text-capitalize" for="password"
+                >Please fill in your password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                name="password"
+                id="password"
+                aria-describedby="helpId"
+                placeholder="super secret password"
+              />
+              <label class="text-capitalize" for="email"
+                >Please fill in your citizen number</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                name="password"
+                id="password"
+                aria-describedby="helpId"
+                placeholder="189372783561872618"
+              />
+            </>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+            >
+              Save changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
